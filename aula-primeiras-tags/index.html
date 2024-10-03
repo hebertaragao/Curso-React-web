@@ -6,53 +6,83 @@
     <title>Loja Top</title>
   </head>
   <body>
-    <h1>Loja Top</h1>
-    <ul>
-      <li><a href="#categories">Categorias</a></li>
-      <li><a href="#titles">Títulos</a></li>
-      <li><a href="#about">Sobre nós</a></li>
-    </ul>
-    <h2 id="categories">Categorias</h2>
-    <ul>
-      <li>Fantasias</li>
-      <li>Educação</li>
-    </ul>
-    <h2 id="titles">Títulos</h2>
+    <header>
+      <nav>
+        <h1>Loja Top</h1>
+        <ul>
+          <li><a href="#categories">Categorias</a></li>
+          <li><a href="#titles">Títulos</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <img src="img/book1.jpg" alt="O Senhor dos Anéis" />
-    <h3>O Senhor dos Anéis</h3>
-    <p>Navegue por essa grande aventura</p>
-    <p>R$ 389.99</p>
+    <main>
+      <section id="categories">
+        <h2>Categorias</h2>
+        <ul>
+          <li>Fantasias</li>
+          <li>Educação</li>
+        </ul>
+      </section>
 
-    <img src="img/book2.jpg" alt="Rails for dummies" />
-    <h3>Rails for dummies</h3>
-    <p>Aprenda esta fantástica ferramenta</p>
-    <p>R$ 250.49</p>
+      <section id="titles">
+        <h2>Títulos</h2>
 
-    <h2 id="about">Sobre nós</h2>
-    <h3>O que fazemos</h3>
-    <p>Ajudamos pessoas a se tornarem desenvolvedores profissionais</p>
-    <h3>Saiba mais</h3>
+        <div>
+          <img src="img/book1.jpg" alt="O Senhor dos Anéis" />
+          <div>
+            <h3>O Senhor dos Anéis</h3>
+            <p>Navegue por essa grande aventura</p>
+            <p><span>R$</span> 389.99</p>
+          </div>
+        </div>
 
-    <iframe
-      width="320"
-      height="180"
-      src="https://www.youtube.com/embed/6PBJUxIiRBI?si=TUCa0s__6JjzdoEd"
-      title="O que estudar para ser programador"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
+        <div>
+          <img src="img/book2.jpg" alt="Rails for dummies" />
+          <div>
+            <h3>Rails for dummies</h3>
+            <p>Aprenda esta fantástica ferramenta</p>
+            <p><span>R$</span> 250.49</p>
+          </div>
+        </div>
+      </section>
 
-    <h2>Siga-nos</h2>
-    <a href="https://youtube.com/devsuperior">youtube</a>
-    <a href="https://instagram.com/devsuperior.ig">instagram</a>
+      <section id="about">
+        <h2>Sobre nós</h2>
+        <h3>O que fazemos</h3>
+        <p>Ajudamos pessoas a se tornarem desenvolvedores profissionais</p>
+        <h3>Saiba mais</h3>
+        <iframe
+          width="320"
+          height="180"
+          src="https://www.youtube.com/embed/6PBJUxIiRBI?si=TUCa0s__6JjzdoEd"
+          title="O que estudar para ser programador"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
 
-    <h2>Entre em contato</h2>
-    <address>
-        Escreva para o nosso <a href="mailto:contato@devsuperior.com">e-mail</a> <br>Até a próxima.
-    </address>
+    <footer>
+      <div>
+        <div>
+          <h2>Siga-nos</h2>
+          <a href="https://youtube.com/devsuperior">youtube</a>
+          <a href="https://instagram.com/devsuperior.ig">instagram</a>
+        </div>
 
+        <div>
+          <h2>Entre em contato</h2>
+          <address>
+            Escreva para o nosso
+            <a href="mailto:contato@devsuperior.com">e-mail</a> <br />Até a
+            próxima.
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
