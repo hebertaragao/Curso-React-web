@@ -41,8 +41,44 @@
             />
           </div>
 
+          <div>
+            <label for="ctrl-city">Cidade</label>
+            <select name="city" id="ctrl-city">
+              <option value="1">São Paulo</option>
+              <option value="2">Florianópolis</option>
+              <option value="3">Curitiba</option>
+              <option value="4">Recife</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="ctrl-level">Escolaridade</label>
+            <div id="ctrl-level">
+              <input type="radio" name="level" id="ctrl-level-1" />
+              <label for="ctrl-level-1">Fundamental</label>
+              <input type="radio" name="level" id="ctrl-level-2" />
+              <label for="ctrl-level-2">Médio</label>
+              <input type="radio" name="level" id="ctrl-level-3" />
+              <label for="ctrl-level-3">Superior</label>
+            </div>
+          </div>
+
+          <div>
+            <label for="ctrl-languages">Linguagens que você conhece</label>
+            <div id="ctrl-languages">
+                <input id="ctrl-languages-java" name="language1" type="checkbox">
+                <label for="ctrl-languages-java">Java</label>
+                <input id="ctrl-languages-csharp" name="language2" type="checkbox">
+                <label for="ctrl-languages-csharp">C#</label>
+                <input id="ctrl-languages-javascript" name="language3" type="checkbox">
+                <label for="ctrl-languages-javascript">JavaScript</label>
+                <input id="ctrl-languages-python" name="language4" type="checkbox">
+                <label for="ctrl-languages-python">Python</label>
+            </div>
+          </div>
+
           <input type="submit" value="Enviar" />
-          <input type="reset">
+          <input type="reset" />
         </form>
       </section>
     </main>
