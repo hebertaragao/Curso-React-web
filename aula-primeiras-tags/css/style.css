@@ -1,7 +1,13 @@
-h1, h2 {
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
     color: blue;
 }
-h1:hover{
+
+h1:hover {
     color: aqua;
     cursor: pointer;
 }
@@ -14,11 +20,11 @@ p {
     color: orange;
 }
 
-.cor-laranja:hover{
+.cor-laranja:hover {
     color: rgb(224, 200, 155);
 }
 
-.card img{
+.card img {
     width: 200px;
     height: 200px;
 }
