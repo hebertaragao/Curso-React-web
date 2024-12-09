@@ -52,28 +52,28 @@ nav {
     align-items: center;
 }
 
-.container {
+.dsc-container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
 }
 
-.card {
+.dsc-card {
     margin-bottom: 20px;
     border: 1px solid var(--dsc-color-card-border);
     border-radius: 4px;
     background-color: var(--dsc-color-card-bg);
 }
 
-.line-bottom {
+.dsc-line-bottom {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.btn-container-220 {
+.dsc-btn-container-220 {
     width: 220px;
 }
 
-.btn {
+.dsc-btn {
     border-radius: 4px;
     height: 42px;
     font-size: 16px;
@@ -83,18 +83,18 @@ nav {
     align-items: center;
 }
 
-.btn-blue {
+.dsc-btn-blue {
     background-color: var(--dsc-color-btn-primary);
     color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
     border: 1px solid var(--dsc-color-btn-primary);
     background-color: var(--dsc-color-btn-inverse);
     color: var(--dsc-color-btn-primary);
 
 }
 
-.mb20 {
+.dsc-mb20 {
     margin-bottom: 20px;
 }
