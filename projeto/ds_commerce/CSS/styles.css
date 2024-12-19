@@ -59,6 +59,13 @@ main {
     margin-top: 20px;
 }
 
+.dsc-section-title{
+    text-align: center;
+    color: var(--dsc-color-font-primary);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /*---------------------------------------------------------------*/
 /* header styles */
 header {
@@ -279,4 +286,20 @@ nav a {
     .dsc-form h2{
         font-size: 24px;
     }
+}
+
+/*---------------------------------------------------------------*/
+/* table styles */
+.dsc-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsc-table thead{
+    background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-table theatbody{
+    background-color: var(--dsc-color-card-bg);
 }
