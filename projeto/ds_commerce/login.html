@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSCommerce</title>
-    <link rel="stylesheet" href="./CSS/login.css" />
+
+    <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <header>
+    <header class="dsc-header-client">
       <nav class="dsc-container">
         <h1>DSCommerce</h1>
-        <a href="#">Entrar</a>
+        <div class="dsc-navbar-right">
+          <div class="dsc-menu-items-container">
+            <div class="dsc-menu-item">
+              <img src="images/cart.svg" alt="Carrinho de compras" />
+            </div>
+          </div>
+          <a href="#">Entrar</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -20,13 +29,12 @@
             <h2>Login</h2>
             <div class="dsc-form-controls-container">
               <div>
-                <input class="dsc-form-control dsc-input-error" type="text" placeholder="Email" />
-                <div class="dsc-form-error">Campo Obrigatório</div>
+                <input class="dsc-form-control dsc-input-error" type="text" placeholder="Email">
+                <div class="dsc-form-error">Campo obrigatório</div>
               </div>
               <div>
-                <input class="dsc-form-control" type="password" placeholder="Senha" />
+                <input class="dsc-form-control" type="password" placeholder="Senha">
               </div>
-           
             </div>
 
             <div class="dsc-login-form-buttons dsc-mt20">
