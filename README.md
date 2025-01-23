@@ -12,3 +12,6 @@ yarn
 
 Rodar o projeto
 yarn dev
+
+Atualizar yarn
+yarn upgrade
