@@ -1,5 +1,5 @@
 import React from 'react';
-
+import'./styles.css';
 interface CarCardProps {
  imageUrl: string;
  model: string;

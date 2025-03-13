@@ -1,3 +1,21 @@
-h1{
-  color: var(--color-red);
+.App {
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-car {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
 }

@@ -1,0 +1,17 @@
+.carCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+   }
+  
+   .carCard img {
+    max-width: 100%;
+    height: auto;
+   }
+  
+   .carCard p {
+    text-align: center;
+   }
