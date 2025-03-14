@@ -1,0 +1,33 @@
+#d-catalog-section{
+    padding: 40px 0;
+}
+
+.d-catalog-main{
+    padding: 0 10px;
+}
+
+.d-search-bar-container{
+    margin-bottom: 40px;
+    
+}
+
+.d-catalog-cards-container{
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+}
+
+.d-card-comment {
+   padding: 0 10px;;
+}
+
+@media (min-width: 576px){
+    .d-catalog-main{
+        padding: 0 20px;
+    }
+}
+@media (min-width: 576px){
+    .d-card-comment{
+        padding: 0 20px;
+    }
+}

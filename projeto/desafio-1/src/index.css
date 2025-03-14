@@ -1,58 +1,42 @@
-/*  Estilos gerais da sua aplicação */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-  }
-  .app{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Garante que o app cubra a altura total da tela */
-  }
+
+:root {
+  --d-color-bg-primary: #fff;
+  --d-color-bg-secondary: #3c9af0;
+  --d-color-bg-tertiary: ##5E5E5E;
  
-  header {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
-  }
- 
-  header h1 {
-  margin: 0;
-  }
- 
-  header nav {
-  margin-top: 10px;
-  }
- 
-  header nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-  }
-  main{
-  flex: 1; /* Expande a main para ocupar o espaço disponível */
-  padding: 20px;
-  }
-  .car-card {
-      border: 1px solid #ddd;
-      padding: 15px;
-      margin-bottom: 15px;
-  }
- 
-  .car-card img {
-      max-width: 100%;
-      height: auto;
-  }
+
+  --d-color-font-primary: ##5E5E5E;
+  --d-color-font-secondary: #3C9AF0;
+  --d-color-font-tertiary: #FFFFFF;
   
-  .comment-card{
-      border: 1px solid #ddd;
-      padding: 15px;
-      margin-bottom: 15px;
-  }
-  footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin-top: auto; /* Empurra o footer para o final da página */
-  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--d-color-bg-primary);
+}
+
+main {
+  padding: 0 20px;
+}
+
+.d-container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
